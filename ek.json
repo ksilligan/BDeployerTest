@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "containerPort": 8080,
+  "exposePort": 8080,
+  "useRegCred": true,
+  "volume": {
+    "size": 1,
+    "mountTo": "/pvc"
+  },
+  "templateApps": [
+    {
+      "app": "postgres",
+      "dbName": "ek",
+      "dbUser": "ek",
+      "dbPassword": "ek",
+      "storageSize": 10
+    }
+  ]
+}
+
+
