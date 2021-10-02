@@ -8,13 +8,7 @@
     "mountTo": "/pvc"
   },
   "templateApps": [
-    {
-      "app": "postgres",
-      "dbName": "ek",
-      "dbUser": "ek",
-      "dbPassword": "ek",
-      "storageSize": 10
-    }
+
   ]
 }
 
